@@ -1,6 +1,6 @@
 package com.company;
 
-public enum Day implements AutoCloseable{
+public enum Day {
     MONDAY("Понедельник"),
     TUESDAY("Вторник"),
     WEDNESDAY("Среда"),
@@ -24,8 +24,5 @@ public enum Day implements AutoCloseable{
     }
 
 
-    @Override
-    public void close() throws Exception {
-
-    }
+  
 }
